@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agentic AI Simulation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <div class="header-container">
+    <h1></h1>
+    <p></p>
+    <div>
+      </div>
+  </div>
+
+  <div class="content-container">
+    
+    <div class="simulation-column">
+      <div class="dashboard-container">
+        <canvas id="arrowCanvas"></canvas>
+        <div class="dashboard-grid">
+          <div class="agent-card" id="agent1"><h3 id="agent1-h3"></h3><div class="bubble" id="bubble-agent1"></div><p id="agent1-desc" class="agent-desc"></p><p>Agent Status: <span class="status idle">Idle</span></p></div>
+          <div class="agent-card" id="agent2"><h3 id="agent2-h3"></h3><div class="bubble" id="bubble-agent2"></div><p id="agent2-desc" class="agent-desc"></p><p>Agent Status: <span class="status idle">Idle</span></p></div>
+          <div class="agent-card" id="agent3"><h3 id="agent3-h3"></h3><div class="bubble" id="bubble-agent3"></div><p id="agent3-desc" class="agent-desc"></p><p>Agent Status: <span class="status idle">Idle</span></p></div>
+          <div class="agent-card" id="agent4"><h3 id="agent4-h3"></h3><div class="bubble" id="bubble-agent4"></div><p id="agent4-desc" class="agent-desc"></p><p>Agent Status: <span class="status idle">Idle</span></p></div>
+          <div class="agent-card" id="agent5"><h3 id="agent5-h3"></h3><div class="bubble" id="bubble-agent5"></div><p id="agent5-desc" class="agent-desc"></p><p>Agent Status: <span class="status idle">Idle</span></p></div>
+          <div class="agent-card" id="agent6"><h3 id="agent6-h3"></h3><div class="bubble" id="bubble-agent6"></div><p id="agent6-desc" class="agent-desc"></p><p>Agent Status: <span class="status idle">Idle</span></p></div>
+        </div>
+      </div>
+
+      <div class="log-container">
+        <div class="simulation-log">
+          <h3>🧠 Agent Log</h3>
+          <pre id="scenarioLog">[ Waiting for scenario to be triggered... ]</pre>
+          <div id="humanInputContainer"></div>
+        </div>
+        <div class="step-nav">
+          <button id="nextStepBtn" onclick="nextStep()">➡️ Next Step</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="explanation-column">
+      <h2>Agentic AI Differentiators</h2>
+      <div id="explanation-text">
+        <p>Select a scenario to begin. This panel will explain how the agents' actions provide value beyond traditional automation.</p>
+      </div>
+
+      <h2 style="margin-top: 2rem;">Potential Agentic AI Risks</h2>
+      <div id="challenges-text">
+          <p>This panel will highlight the operational challenges and risks associated with each agent action.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
