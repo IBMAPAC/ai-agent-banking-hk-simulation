@@ -38,7 +38,7 @@ h1, h2, h3 {
 
 h1 { font-size: 1.5rem; }
 h2 { font-size: 1.1rem; }
-h3 { font-size: 0.9rem; }
+h3 { font-size: 0.85rem; }
 
 p {
   color: var(--secondary-text);
