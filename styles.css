@@ -219,7 +219,7 @@ pre#scenarioLog {
   word-wrap: break-word;
   min-height: 60px; /* Reduced min-height */
   font-family: 'Menlo', 'Monaco', monospace;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--primary-text);
   overflow-y: auto; /* Allow internal scrolling if needed */
 }
@@ -232,10 +232,10 @@ pre#scenarioLog {
   margin-top: 5px;
   text-align: center;
 }
-#humanInputContainer button { background-color: #f6e05e; color: var(--primary-text); font-size: 0.85rem;}
+#humanInputContainer button { background-color: #f6e05e; color: var(--primary-text); font-size: 0.8rem;}
 #humanInputContainer p {
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   margin-bottom: 0.25rem;
 }
 
